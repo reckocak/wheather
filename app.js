@@ -3,7 +3,7 @@ const input = document.querySelector(".container input");
 const span = document.querySelector(".msg");
 const cityList = document.querySelector(".ajax-section .cities");
 
-// localStorage.setItem("apiKey", "5367e2ce8b28efe3b520e745cd510df2");
+localStorage.setItem("apiKey", "5367e2ce8b28efe3b520e745cd510df2");
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
